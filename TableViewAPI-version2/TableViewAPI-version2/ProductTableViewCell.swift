@@ -56,7 +56,7 @@ class ProductTableViewCell: UITableViewCell {
         internal lazy var productBookButton: UIButton = {
             let button = UIButton()
             button.translatesAutoresizingMaskIntoConstraints = false
-            button.setTitle("ADD", for: .normal)
+            button.setTitle("Book", for: .normal)
             button.backgroundColor = .systemBlue
             button.setTitleColor(.white, for: .normal)
             return button
